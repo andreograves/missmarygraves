@@ -44,3 +44,6 @@ nav a::after{inset:auto;left:50%;top:100%;width:28px;height:28px;background-imag
 nav a::after{inset:auto;left:50%;top:50%;width:76px;height:76px;transform:translate(-50%,-50%) rotate(-9deg);pointer-events:none}
 nav a:hover::after,nav a:focus-visible::after{opacity:.8}
 @media(max-width:700px){nav a::after{inset:auto;left:50%;top:50%;width:62px;height:62px}}
+
+/* Italic serif accent for Miss. */
+.intro .memorial-name .miss-script{font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-size:1em;font-weight:400}
