@@ -36,3 +36,6 @@ nav{font-size:19px;gap:30px}
 /* Hand-drawn stars mark navigation hover and keyboard focus. */
 nav a::after{inset:auto;left:50%;top:100%;width:28px;height:28px;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2044%2044%22%3E%3Cpath%20d%3D%22M22%203L27%2016L41%2017L30%2026L34%2040L22%2032L9%2040L13%2025L3%2016L17%2016L22%203L28%2015M8%2039L21%2031%22%20fill%3D%22none%22%20stroke%3D%22%23172d50%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E");background-repeat:no-repeat;background-size:contain;transform:translateX(-50%) rotate(-9deg)}
 @media(max-width:700px){nav{row-gap:24px}nav a::after{inset:auto;left:50%;top:100%;width:22px;height:22px}}
+
+/* Handwritten dedication with a sketched heart. */
+.polaroid figcaption>span{font-family:"Caveat",cursive;font-size:24px;line-height:1.4;display:flex;align-items:center;justify-content:center;gap:7px;margin-top:6px}.drawn-heart{width:27px;height:27px;flex:none;overflow:visible;transform:rotate(-9deg)}
