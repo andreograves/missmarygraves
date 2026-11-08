@@ -66,3 +66,8 @@ body::before{right:-65px;top:140px}body::after{left:-90px;bottom:25px;transform:
 /* Light & memories: full photographic background from selected concept. */
 body{background:#d7d9dd url("images/light-and-memories-bold.png") center center / cover fixed no-repeat;min-height:100svh}body::before,body::after{display:none}
 @media(max-width:700px){body{background-attachment:scroll;background-position:center top;background-size:auto 100svh}}
+
+/* Name and date refinements. */
+.intro .memorial-name .miss-script{font-style:normal}
+.name-and-dates{width:max-content;max-width:100%}
+.intro .name-and-dates .dates{width:100%;font-size:15.6px;text-align:center;margin-left:0;margin-right:0}
